@@ -1,0 +1,29 @@
+.loginForm {
+  text-align: center;
+  margin: 16rem auto 0 auto;
+}
+
+.loginForm p md-checkbox {
+  vertical-align: middle;
+}
+
+.loginForm md-filled-button {
+  width: 15rem;
+}
+
+.loginForm md-filled-button svg {
+  vertical-align: middle;
+  margin: 0 0.5rem 0.15rem 0;
+}
+
+.loginForm md-outlined-text-field,
+.loginForm md-outlined-select {
+  margin-top: 1.5rem;
+  width: 15rem;
+}
+
+.fab {
+  position: fixed;
+  bottom: 4rem;
+  right: 2rem;
+}

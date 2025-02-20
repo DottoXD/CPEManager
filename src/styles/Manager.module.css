@@ -1,0 +1,90 @@
+.dataDisplay {
+  margin-top: 1rem;
+}
+
+.dataDisplay table {
+  margin: 0 auto 1rem auto;
+  width: 90%;
+}
+
+.dataDisplay td {
+  border-radius: 2rem;
+  position: relative;
+  width: 50%;
+  height: 10rem;
+  border: 0.35rem solid var(--md-sys-color-background);
+  background: var(--md-sys-color-on-secondary);
+  cursor: pointer;
+}
+
+.dataDisplay td p {
+  text-align: center;
+  font-family: var(--md-ref-typeface-plain);
+}
+
+.dataDisplay td h1 {
+  text-align: center;
+  font-family: var(--md-ref-typeface-brand);
+  font-size: 1.8rem;
+}
+
+.dataDisplay td h1 svg {
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
+.topBar {
+  width: 100%;
+  background: var(--md-sys-color-background);
+  top: 0.5rem;
+  height: 2.75rem;
+  line-height: 2.75rem;
+}
+
+.cover {
+  width: 100%;
+  position: sticky;
+  bottom: 0rem;
+  height: 2rem;
+  background: var(--md-sys-color-background);
+}
+
+.topBar h1 {
+  display: inline;
+  margin-left: 1.5rem;
+  vertical-align: middle;
+}
+
+.topBar h1 {
+  font-size: 1.25rem;
+}
+
+.topBar md-icon-button {
+  float: right;
+  margin-right: 1rem;
+  width: 2.75rem;
+  height: 2.75rem;
+}
+
+.navBar {
+  width: 100%;
+  position: sticky;
+  z-index: 1;
+  bottom: 2rem;
+  left: 0;
+}
+
+.navBar md-tabs::part(divider) {
+  display: none;
+}
+
+.fab {
+  position: fixed;
+  bottom: 7.5rem;
+  right: 1.5rem;
+}
+
+.dataDisplay td h1.small {
+  font-size: 1.4rem;
+  margin: 1rem auto;
+}
